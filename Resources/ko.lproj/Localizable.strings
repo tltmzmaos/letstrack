@@ -1,0 +1,510 @@
+/*
+  Localizable.strings (Korean)
+  LetsTrack
+*/
+
+// MARK: - Common
+"common.cancel" = "취소";
+"common.save" = "저장";
+"common.delete" = "삭제";
+"common.edit" = "수정";
+"common.add" = "추가";
+"common.done" = "완료";
+"common.close" = "닫기";
+"common.search" = "검색";
+"common.all" = "전체";
+"common.today" = "오늘";
+"common.this_month" = "이번 달";
+"common.won" = "₩";
+
+// MARK: - Dates
+"date.today" = "오늘";
+"date.yesterday" = "어제";
+"date.tomorrow" = "내일";
+
+// MARK: - Tab Bar
+"tab.dashboard" = "대시보드";
+"tab.transactions" = "거래";
+"tab.statistics" = "통계";
+"tab.budget" = "예산";
+"tab.settings" = "설정";
+
+// MARK: - Dashboard
+"dashboard.title" = "대시보드";
+"dashboard.total_balance" = "총 잔액";
+"dashboard.monthly_summary" = "이번 달 요약";
+"dashboard.income" = "수입";
+"dashboard.expense" = "지출";
+"dashboard.recent_transactions" = "최근 거래";
+"dashboard.no_transactions" = "아직 거래가 없습니다";
+"dashboard.add_first_transaction" = "첫 거래를 추가해보세요";
+"dashboard.view_all" = "전체보기";
+
+// MARK: - Transactions
+"transactions.title" = "거래";
+"transactions.add" = "거래 추가";
+"transactions.edit" = "거래 수정";
+"transactions.delete" = "거래 삭제";
+"transactions.delete_confirm" = "이 거래를 삭제하시겠습니까?";
+"transactions.no_transactions" = "거래 내역이 없습니다";
+"transactions.search_placeholder" = "메모로 검색";
+"transactions.type.income" = "수입";
+"transactions.type.expense" = "지출";
+"transactions.amount" = "금액";
+"transactions.category" = "카테고리";
+"transactions.date" = "날짜";
+"transactions.note" = "메모";
+"transactions.note_placeholder" = "메모 입력 (선택)";
+"transactions.save_error" = "거래 저장에 실패했습니다. 다시 시도해주세요.";
+
+// MARK: - Statistics
+"statistics.title" = "통계";
+"statistics.period.week" = "주간";
+"statistics.period.month" = "월간";
+"statistics.period.year" = "연간";
+"statistics.expense_by_category" = "카테고리별 지출";
+"statistics.income_vs_expense" = "수입 vs 지출";
+"statistics.daily_spending" = "일별 지출";
+"statistics.no_data" = "데이터가 없습니다";
+"statistics.total_expense" = "총 지출";
+"statistics.total_income" = "총 수입";
+
+// MARK: - Budget
+"budget.title" = "예산";
+"budget.this_month" = "이번 달 예산";
+"budget.add" = "예산 추가";
+"budget.edit" = "예산 수정";
+"budget.delete" = "예산 삭제";
+"budget.setup" = "예산 설정하기";
+"budget.setup_description" = "예산을 설정하고\n지출을 관리해보세요";
+"budget.remaining" = "남은 예산";
+"budget.usage" = "사용률";
+"budget.category_budgets" = "카테고리별 예산";
+"budget.total_budget" = "전체 예산";
+"budget.amount" = "금액";
+"budget.period" = "기간";
+"budget.period.weekly" = "주간";
+"budget.period.monthly" = "월간";
+"budget.period.yearly" = "연간";
+"budget.category_optional" = "카테고리 (선택)";
+"budget.exceeded" = "예산 초과";
+"budget.warning" = "예산 주의";
+
+// MARK: - Categories
+"categories.title" = "카테고리";
+"categories.manage" = "카테고리 관리";
+"categories.add" = "카테고리 추가";
+"categories.edit" = "카테고리 수정";
+"categories.delete" = "카테고리 삭제";
+"categories.expense" = "지출 카테고리";
+"categories.income" = "수입 카테고리";
+"categories.name" = "이름";
+"categories.icon" = "아이콘";
+"categories.color" = "색상";
+"categories.uncategorized" = "미분류";
+"categories.default" = "기본";
+"categories.preview" = "미리보기";
+
+// Default Categories - Expense
+"category.food" = "음식";
+"category.shopping" = "쇼핑";
+"category.transport" = "교통";
+"category.housing" = "주거";
+"category.telecom" = "통신";
+"category.medical" = "의료";
+"category.education" = "교육";
+"category.entertainment" = "여가";
+"category.other" = "기타";
+
+// Default Categories - Income
+"category.salary" = "급여";
+"category.side_income" = "부수입";
+"category.investment" = "투자";
+
+// MARK: - Recurring Transactions
+"recurring.title" = "반복 거래";
+"recurring.add" = "반복 거래 추가";
+"recurring.edit" = "반복 거래 수정";
+"recurring.delete" = "반복 거래 삭제";
+"recurring.frequency" = "반복 주기";
+"recurring.start_date" = "시작일";
+"recurring.end_date" = "종료일";
+"recurring.end_date_optional" = "종료일 (선택)";
+"recurring.set_end_date" = "종료일 설정";
+"recurring.next_date" = "다음";
+"recurring.no_end_date" = "종료일 없음";
+"recurring.active" = "활성";
+"recurring.inactive" = "비활성";
+"recurring.status" = "상태";
+"recurring.info" = "정보";
+"recurring.last_processed" = "마지막 처리일";
+"recurring.no_transactions" = "반복 거래가 없습니다";
+"recurring.no_transactions_description" = "월세, 구독료 등 정기적인 지출을\n자동으로 기록해보세요";
+"recurring.note_example" = "예: 넷플릭스 구독";
+"recurring.delete_confirm" = "이 반복 거래를 삭제하시겠습니까?";
+"recurring.frequency.daily" = "매일";
+"recurring.frequency.weekly" = "매주";
+"recurring.frequency.biweekly" = "격주";
+"recurring.frequency.monthly" = "매월";
+"recurring.frequency.yearly" = "매년";
+"recurring.auto_generated" = "자동";
+"recurring.schedule.daily" = "매일";
+"recurring.schedule.weekly %@" = "매주 %@";
+"recurring.schedule.weekly_generic" = "매주";
+"recurring.schedule.biweekly" = "격주";
+"recurring.schedule.monthly %lld" = "매월 %lld일";
+"recurring.schedule.monthly_generic" = "매월";
+"recurring.schedule.yearly" = "매년";
+"recurring.day_of_month" = "결제일";
+"recurring.day_of_week" = "요일";
+"recurring.notify_before" = "사전 알림";
+"recurring.notify_same_day" = "당일";
+"recurring.notify_days_before %lld" = "%lld일 전";
+"recurring.upcoming" = "예정";
+"recurring.due_today" = "오늘 결제";
+"recurring.due_soon" = "곧 결제 예정";
+"recurring.monthly_fixed" = "이번 달 고정 지출";
+"recurring.total_monthly" = "월 합계";
+
+// MARK: - Settings
+"settings.title" = "설정";
+"settings.section.appearance" = "화면";
+"settings.section.management" = "관리";
+"settings.section.notifications" = "알림";
+"settings.section.data" = "데이터";
+"settings.section.about" = "정보";
+"settings.theme" = "테마";
+"settings.theme.system" = "시스템";
+"settings.theme.light" = "라이트";
+"settings.theme.dark" = "다크";
+"settings.category_management" = "카테고리 관리";
+"settings.recurring_transactions" = "반복 거래";
+"settings.budget_alert" = "예산 초과 알림";
+"settings.daily_reminder" = "매일 기록 알림";
+"settings.reminder_time" = "알림 시간";
+"settings.export_data" = "데이터 내보내기";
+"settings.delete_all_data" = "모든 데이터 삭제";
+"settings.delete_data_title" = "데이터 삭제";
+"settings.delete_data_message" = "모든 거래 데이터가 삭제됩니다.\n이 작업은 되돌릴 수 없습니다.";
+"settings.rate_app" = "앱 평가하기";
+"settings.version" = "버전";
+
+// MARK: - Export
+"export.title" = "데이터 내보내기";
+"export.description" = "거래 내역을 CSV 파일로 내보냅니다.\n다른 앱이나 스프레드시트에서 사용할 수 있습니다.";
+"export.csv" = "CSV로 내보내기";
+
+// MARK: - Notifications
+"notification.daily_reminder.title" = "오늘의 지출을 기록하세요";
+"notification.daily_reminder.body" = "오늘 하루 지출 내역을 기록해보세요 📝";
+"notification.budget_exceeded.title" = "예산 초과";
+"notification.budget_exceeded.body %@" = "%@ 예산을 초과했습니다.";
+"notification.budget_warning.title" = "예산 주의";
+"notification.budget_warning.body %@" = "%@ 예산의 80%%를 사용했습니다.";
+"notification.recurring_reminder.title" = "반복 거래 예정";
+"notification.recurring_reminder.body %@ %@" = "%@ (%@)이 내일 예정되어 있습니다.";
+
+// MARK: - Widget
+"widget.title" = "Let's Track";
+"widget.description" = "이번 달 지출과 잔액을 확인하세요";
+"widget.monthly_expense" = "이번 달 지출";
+"widget.total_balance" = "총 잔액";
+
+// MARK: - Receipt
+"receipt.title" = "영수증";
+"receipt.add_photo" = "영수증 사진 추가";
+"receipt.choose_source" = "사진 선택";
+"receipt.take_photo" = "사진 촬영";
+"receipt.choose_from_library" = "앨범에서 선택";
+"receipt.view_full" = "전체 이미지 보기";
+"receipt.save_for_record" = "영수증을 기록용으로 저장합니다";
+
+// MARK: - Currency
+"currency.title" = "통화";
+"currency.default" = "기본 통화";
+"currency.krw" = "원화";
+"currency.usd" = "미국 달러";
+"currency.eur" = "유로";
+"currency.jpy" = "일본 엔";
+"currency.cny" = "중국 위안";
+"currency.gbp" = "영국 파운드";
+
+// MARK: - Search
+"search.title" = "검색";
+"search.placeholder" = "거래 검색...";
+"search.no_results" = "검색 결과 없음";
+"search.no_results_description" = "다른 검색어를 입력해보세요";
+"search.filter" = "필터";
+"search.filter.all" = "전체";
+"search.filter.income" = "수입";
+"search.filter.expense" = "지출";
+"search.recent" = "최근 검색";
+"search.clear_recent" = "지우기";
+
+// MARK: - Language
+"settings.language" = "언어";
+"settings.language.system" = "시스템 설정";
+"settings.language.english" = "English";
+"settings.language.korean" = "한국어";
+"settings.section.general" = "일반";
+"settings.language.change_title" = "언어 변경됨";
+"settings.language.change_message" = "언어 변경을 완전히 적용하려면 앱을 다시 시작해주세요.";
+
+// MARK: - Error Messages
+"error.save_failed" = "저장에 실패했습니다";
+"error.fetch_failed" = "데이터를 불러오는데 실패했습니다";
+"error.delete_failed" = "삭제에 실패했습니다";
+"error.not_found" = "데이터를 찾을 수 없습니다";
+"error.invalid_data %@" = "유효하지 않은 데이터: %@";
+"error.unknown" = "알 수 없는 오류가 발생했습니다";
+"error.retry" = "다시 시도";
+"error.ok" = "확인";
+"error.amount_must_be_positive" = "금액은 0보다 커야 합니다";
+"error.name_required" = "이름을 입력해주세요";
+"error.cannot_delete_default_category" = "기본 카테고리는 삭제할 수 없습니다";
+"error.end_date_before_start" = "종료일이 시작일보다 빠를 수 없습니다";
+"error.database_title" = "데이터베이스 경고";
+"error.database_fallback" = "데이터를 불러오는 중 문제가 발생했습니다. 앱이 임시 모드로 실행 중입니다. 데이터가 저장되지 않을 수 있습니다.";
+
+// MARK: - Feedback
+"feedback.title" = "피드백 보내기";
+"feedback.type" = "유형";
+"feedback.type.bug_report" = "버그 제보";
+"feedback.type.feature_request" = "기능 요청";
+"feedback.type.general_feedback" = "일반 피드백";
+"feedback.type.question" = "질문";
+"feedback.message" = "내용";
+"feedback.include_device_info" = "기기 정보 포함";
+"feedback.include_logs" = "진단 로그 포함";
+"feedback.privacy_note" = "기기 정보는 문제 진단에 도움이 됩니다.";
+"feedback.send" = "피드백 보내기";
+"feedback.saved" = "피드백이 임시저장되었습니다";
+"feedback.error.cannot_send_email" = "이메일을 보낼 수 없습니다. 메일 계정을 설정해주세요.";
+"feedback.error.send_failed" = "피드백 전송에 실패했습니다. 다시 시도해주세요.";
+"common.info" = "정보";
+"common.ok" = "확인";
+"common.error" = "오류";
+
+// MARK: - Savings Goals
+"savings.title" = "저축 목표";
+"savings.add_goal" = "목표 추가";
+"savings.goal_name" = "목표 이름";
+"savings.target_amount" = "목표 금액";
+"savings.set_deadline" = "마감일 설정";
+"savings.deadline" = "마감일";
+"savings.appearance" = "외관";
+"savings.note_optional" = "메모 (선택)";
+"savings.note_placeholder" = "메모 추가...";
+"savings.no_goals" = "저축 목표 없음";
+"savings.no_goals_description" = "저축 목표를 설정하여 추적을 시작하세요";
+"savings.days_remaining %lld" = "%lld일 남음";
+"savings.progress" = "진행률";
+"savings.remaining" = "남은 금액";
+"savings.daily_needed" = "일일";
+"savings.completed" = "완료됨";
+"savings.add_savings" = "저축 추가";
+"savings.withdraw" = "출금";
+"savings.amount" = "금액";
+"savings.days_left" = "남은 일수";
+"savings.per_day" = "일당";
+"savings.note" = "메모";
+"savings.delete_goal" = "목표 삭제";
+"savings.delete_confirm" = "이 목표를 삭제하시겠습니까?";
+
+// MARK: - Wallets
+"wallet.title" = "지갑";
+"wallet.add" = "지갑 추가";
+"wallet.name" = "이름";
+"wallet.type" = "유형";
+"wallet.type.cash" = "현금";
+"wallet.type.bank" = "은행 계좌";
+"wallet.type.credit_card" = "신용카드";
+"wallet.type.debit_card" = "체크카드";
+"wallet.type.savings" = "저축";
+"wallet.type.investment" = "투자";
+"wallet.type.other" = "기타";
+"wallet.initial_balance" = "초기 잔액";
+"wallet.set_as_default" = "기본값으로 설정";
+"wallet.appearance" = "외관";
+"wallet.total_balance" = "총 잔액";
+"wallet.default" = "기본";
+"wallet.transactions" = "건";
+"wallet.no_wallets" = "지갑 없음";
+"wallet.no_wallets_description" = "지갑을 추가하여 계좌를 관리하세요";
+"wallet.archived" = "보관됨";
+"wallet.adjust_balance" = "잔액 조정";
+"wallet.balance" = "잔액";
+"wallet.delete" = "지갑 삭제";
+"wallet.delete_confirm" = "이 지갑을 삭제하시겠습니까?";
+
+// MARK: - Calendar
+"calendar.title" = "달력";
+"calendar.no_transactions" = "이 날의 거래가 없습니다";
+"calendar.balance" = "잔액";
+"calendar.transactions_count" = "거래 수";
+"calendar.avg_expense" = "평균 지출";
+"calendar.top_categories" = "주요 카테고리";
+
+// MARK: - Insights
+"insights.title" = "인사이트";
+"insights.period.3m" = "3개월";
+"insights.period.6m" = "6개월";
+"insights.period.1y" = "1년";
+"insights.spending_trends" = "지출 트렌드";
+"insights.budget_predictions" = "예산 예측";
+"insights.top_expenses" = "상위 지출";
+"insights.spending_by_day" = "요일별 지출";
+"insights.category_breakdown" = "카테고리 분석";
+"insights.no_data" = "데이터가 없습니다";
+"insights.increased_by %@" = "지난달 대비 %@ 증가";
+"insights.decreased_by %@" = "지난달 대비 %@ 감소";
+"insights.current %lld%%" = "현재: %lld%%";
+"insights.predicted %lld%%" = "예측: %lld%%";
+"insights.peak_day %@" = "가장 많이 쓰는 요일: %@";
+"insights.transactions" = "건";
+
+// MARK: - Security
+"settings.section.security" = "보안";
+"settings.app_lock %@" = "앱 잠금 (%@)";
+"settings.lock_on_background" = "앱 나갈 때 잠금";
+"settings.biometric_unavailable" = "생체 인증";
+"settings.not_available" = "사용 불가";
+"biometric.none" = "없음";
+"biometric.reason" = "Let's Track에 접근하려면 인증하세요";
+"biometric.error.not_available" = "생체 인증을 사용할 수 없습니다";
+"biometric.error.not_enrolled" = "생체 인증이 설정되지 않았습니다";
+"biometric.error.authentication_failed" = "인증에 실패했습니다";
+"biometric.error.user_cancelled" = "인증이 취소되었습니다";
+"biometric.error.system_cancelled" = "시스템에 의해 인증이 취소되었습니다";
+"biometric.error.title" = "인증 실패";
+"biometric.error.retry" = "다시 시도";
+"lock.title" = "Let's Track이 잠겼습니다";
+"lock.description" = "계속하려면 인증하세요";
+"lock.unlock_with %@" = "%@로 잠금 해제";
+"lock.use_passcode" = "암호 사용";
+"lock.authenticating" = "인증 중...";
+
+// MARK: - Backup
+"settings.backup" = "데이터 백업";
+"settings.restore" = "데이터 복원";
+"settings.restore_result" = "복원 결과";
+"settings.restore_success %lld" = "%lld개 항목을 성공적으로 복원했습니다";
+"settings.restore_error" = "데이터 복원에 실패했습니다";
+"backup.title" = "데이터 백업";
+"backup.description" = "모든 데이터의 백업을 생성합니다.\n나중에 어떤 기기에서든 복원할 수 있습니다.";
+"backup.last_backup %@" = "마지막 백업: %@";
+"backup.create" = "백업 생성";
+"backup.share" = "백업 공유";
+
+// MARK: - Tags
+"tags.title" = "태그";
+"tags.add" = "태그 추가";
+"tags.edit" = "태그 수정";
+"tags.name" = "태그 이름";
+"tags.color" = "색상";
+"tags.preview" = "미리보기";
+"tags.sample" = "샘플";
+"tags.no_tags" = "태그 없음";
+"tags.no_tags_description" = "거래를 정리할 태그를 만들어보세요";
+"tags.usage_count" = "사용 횟수";
+"tags.delete" = "태그 삭제";
+"tags.delete_confirm" = "이 태그를 삭제하시겠습니까?";
+
+// MARK: - More Tabs
+"tab.calendar" = "달력";
+"tab.insights" = "인사이트";
+"tab.wallets" = "지갑";
+"tab.savings" = "저축";
+"tab.more" = "더보기";
+
+// MARK: - Filter Short Labels
+"filter.all.short" = "전체";
+"filter.income.short" = "수입";
+"filter.expense.short" = "지출";
+
+// MARK: - Accessibility
+"accessibility.selected" = "선택됨";
+"accessibility.tap_to_select" = "탭하여 선택";
+"accessibility.income_amount %@" = "수입: %@";
+"accessibility.expense_amount %@" = "지출: %@";
+
+// MARK: - Voice Transaction
+"voice.title" = "음성 입력";
+"voice.listening" = "듣고 있어요...";
+"voice.tap_to_start" = "탭하여 말하기 시작";
+"voice.recognized" = "인식된 내용:";
+"voice.parsed_result" = "분석 결과";
+"voice.start" = "녹음 시작";
+"voice.stop" = "녹음 중지";
+"voice.permission_required" = "권한 필요";
+"voice.permission_message" = "음성 입력을 사용하려면 설정에서 마이크 및 음성 인식 권한을 허용해주세요.";
+"voice.error.not_available" = "음성 인식을 사용할 수 없습니다";
+"voice.error.not_authorized" = "음성 인식이 허용되지 않았습니다";
+"voice.error.request_failed" = "음성 인식 요청 생성에 실패했습니다";
+"voice.error.recognition_failed" = "음성 인식에 실패했습니다";
+
+// MARK: - Insights (Additional)
+"insights.recurring_patterns" = "반복 지출";
+"insights.no_recurring_patterns" = "아직 감지된 반복 패턴이 없습니다.\n더 많은 거래를 추가하면 패턴을 확인할 수 있습니다.";
+"insights.occurrences" = "회";
+"insights.next_expected %@" = "다음 예상: %@";
+"insights.frequency.monthly" = "월간";
+"insights.frequency.weekly" = "주간";
+"insights.frequency.biweekly" = "격주";
+"insights.category_trends" = "카테고리 트렌드";
+"insights.this_month" = "이번 달:";
+"insights.last_month" = "지난 달:";
+"insights.avg" = "평균:";
+"insights.transactions_this_month" = "건 이번 달";
+
+// MARK: - Weekly Report
+"settings.weekly_report" = "주간 지출 리포트";
+"notification.weekly_report.title" = "주간 지출 요약";
+"notification.weekly_report.body" = "지난주 지출을 확인해보세요!";
+"notification.weekly_report.spent %@" = "지난주 지출: %@";
+"notification.weekly_report.top_category %@" = "가장 많이 사용한 카테고리: %@";
+"notification.weekly_report.increased %lld%%" = "전주 대비 %lld%% 증가";
+"notification.weekly_report.decreased %lld%%" = "전주 대비 %lld%% 감소";
+
+// MARK: - Smart Category
+"smart_category.suggestion" = "추천:";
+
+// MARK: - Location
+"location.title" = "위치";
+"location.detect" = "현재 위치";
+"location.search" = "검색";
+"location.select" = "위치 선택";
+"location.current" = "현재 위치";
+"location.use_current_location" = "현재 위치 사용하기";
+"location.search_placeholder" = "장소 검색...";
+"location.select_this" = "이 위치 선택";
+"location.unknown" = "알 수 없는 위치";
+"location.error.permission_denied" = "위치 권한이 필요합니다. 설정에서 권한을 허용해주세요.";
+"location.error.permission_restricted" = "위치 접근이 제한되어 있습니다.";
+"location.error.unavailable" = "현재 위치를 가져올 수 없습니다.";
+"location.error.geocoding_failed" = "이 위치의 주소를 찾을 수 없습니다.";
+"location.error.title" = "위치 오류";
+"location.permission_required" = "권한 필요";
+
+// MARK: - Map
+"map.title" = "지도";
+"map.empty.title" = "위치 정보 없음";
+"map.empty.description" = "거래 내역에 위치 정보를 추가하면\n지도에서 확인할 수 있습니다.";
+"map.loading" = "지도 로딩 중...";
+
+// MARK: - More Page
+"more.finance" = "금융";
+"more.organize" = "정리";
+"more.data" = "데이터";
+"more.support" = "지원";
+
+// MARK: - Insights Location
+"insights.spending_locations" = "지출 위치";
+"insights.view_on_map" = "지도에서 보기";
+
+// MARK: - Add Transaction
+"add.title" = "거래 추가";
+"add.manual_description" = "거래 내용을 직접 입력합니다";
+"add.voice_description" = "음성으로 거래를 추가합니다";
+"fab.voice" = "음성";
+"fab.manual" = "수동";
