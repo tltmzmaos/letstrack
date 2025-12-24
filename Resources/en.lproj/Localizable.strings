@@ -1,0 +1,510 @@
+/*
+  Localizable.strings (English)
+  LetsTrack
+*/
+
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.add" = "Add";
+"common.done" = "Done";
+"common.close" = "Close";
+"common.search" = "Search";
+"common.all" = "All";
+"common.today" = "Today";
+"common.this_month" = "This Month";
+"common.won" = "₩";
+
+// MARK: - Dates
+"date.today" = "Today";
+"date.yesterday" = "Yesterday";
+"date.tomorrow" = "Tomorrow";
+
+// MARK: - Tab Bar
+"tab.dashboard" = "Dashboard";
+"tab.transactions" = "Transactions";
+"tab.statistics" = "Statistics";
+"tab.budget" = "Budget";
+"tab.settings" = "Settings";
+
+// MARK: - Dashboard
+"dashboard.title" = "Dashboard";
+"dashboard.total_balance" = "Total Balance";
+"dashboard.monthly_summary" = "Monthly Summary";
+"dashboard.income" = "Income";
+"dashboard.expense" = "Expense";
+"dashboard.recent_transactions" = "Recent Transactions";
+"dashboard.no_transactions" = "No transactions yet";
+"dashboard.add_first_transaction" = "Add your first transaction";
+"dashboard.view_all" = "View All";
+
+// MARK: - Transactions
+"transactions.title" = "Transactions";
+"transactions.add" = "Add Transaction";
+"transactions.edit" = "Edit Transaction";
+"transactions.delete" = "Delete Transaction";
+"transactions.delete_confirm" = "Are you sure you want to delete this transaction?";
+"transactions.no_transactions" = "No transactions";
+"transactions.search_placeholder" = "Search by note";
+"transactions.type.income" = "Income";
+"transactions.type.expense" = "Expense";
+"transactions.amount" = "Amount";
+"transactions.category" = "Category";
+"transactions.date" = "Date";
+"transactions.note" = "Note";
+"transactions.note_placeholder" = "Enter note (optional)";
+"transactions.save_error" = "Failed to save transaction. Please try again.";
+
+// MARK: - Statistics
+"statistics.title" = "Statistics";
+"statistics.period.week" = "Week";
+"statistics.period.month" = "Month";
+"statistics.period.year" = "Year";
+"statistics.expense_by_category" = "Expense by Category";
+"statistics.income_vs_expense" = "Income vs Expense";
+"statistics.daily_spending" = "Daily Spending";
+"statistics.no_data" = "No data available";
+"statistics.total_expense" = "Total Expense";
+"statistics.total_income" = "Total Income";
+
+// MARK: - Budget
+"budget.title" = "Budget";
+"budget.this_month" = "Monthly Budget";
+"budget.add" = "Add Budget";
+"budget.edit" = "Edit Budget";
+"budget.delete" = "Delete Budget";
+"budget.setup" = "Set Budget";
+"budget.setup_description" = "Set up a budget\nto manage your spending";
+"budget.remaining" = "Remaining";
+"budget.usage" = "Usage";
+"budget.category_budgets" = "Category Budgets";
+"budget.total_budget" = "Total Budget";
+"budget.amount" = "Amount";
+"budget.period" = "Period";
+"budget.period.weekly" = "Weekly";
+"budget.period.monthly" = "Monthly";
+"budget.period.yearly" = "Yearly";
+"budget.category_optional" = "Category (Optional)";
+"budget.exceeded" = "Budget Exceeded";
+"budget.warning" = "Budget Warning";
+
+// MARK: - Categories
+"categories.title" = "Categories";
+"categories.manage" = "Manage Categories";
+"categories.add" = "Add Category";
+"categories.edit" = "Edit Category";
+"categories.delete" = "Delete Category";
+"categories.expense" = "Expense Categories";
+"categories.income" = "Income Categories";
+"categories.name" = "Name";
+"categories.icon" = "Icon";
+"categories.color" = "Color";
+"categories.uncategorized" = "Uncategorized";
+"categories.default" = "Default";
+"categories.preview" = "Preview";
+
+// Default Categories - Expense
+"category.food" = "Food";
+"category.shopping" = "Shopping";
+"category.transport" = "Transport";
+"category.housing" = "Housing";
+"category.telecom" = "Telecom";
+"category.medical" = "Medical";
+"category.education" = "Education";
+"category.entertainment" = "Entertainment";
+"category.other" = "Other";
+
+// Default Categories - Income
+"category.salary" = "Salary";
+"category.side_income" = "Side Income";
+"category.investment" = "Investment";
+
+// MARK: - Recurring Transactions
+"recurring.title" = "Recurring";
+"recurring.add" = "Add Recurring Transaction";
+"recurring.edit" = "Edit Recurring Transaction";
+"recurring.delete" = "Delete Recurring Transaction";
+"recurring.frequency" = "Frequency";
+"recurring.start_date" = "Start Date";
+"recurring.end_date" = "End Date";
+"recurring.end_date_optional" = "End Date (Optional)";
+"recurring.set_end_date" = "Set End Date";
+"recurring.next_date" = "Next";
+"recurring.no_end_date" = "No End Date";
+"recurring.active" = "Active";
+"recurring.inactive" = "Inactive";
+"recurring.status" = "Status";
+"recurring.info" = "Info";
+"recurring.last_processed" = "Last Processed";
+"recurring.no_transactions" = "No recurring transactions";
+"recurring.no_transactions_description" = "Set up recurring transactions\nfor rent, subscriptions, etc.";
+"recurring.note_example" = "e.g. Netflix subscription";
+"recurring.delete_confirm" = "Delete this recurring transaction?";
+"recurring.frequency.daily" = "Daily";
+"recurring.frequency.weekly" = "Weekly";
+"recurring.frequency.biweekly" = "Biweekly";
+"recurring.frequency.monthly" = "Monthly";
+"recurring.frequency.yearly" = "Yearly";
+"recurring.auto_generated" = "Auto";
+"recurring.schedule.daily" = "Every day";
+"recurring.schedule.weekly %@" = "Every %@";
+"recurring.schedule.weekly_generic" = "Every week";
+"recurring.schedule.biweekly" = "Every 2 weeks";
+"recurring.schedule.monthly %lld" = "Day %lld of each month";
+"recurring.schedule.monthly_generic" = "Every month";
+"recurring.schedule.yearly" = "Every year";
+"recurring.day_of_month" = "Day of Month";
+"recurring.day_of_week" = "Day of Week";
+"recurring.notify_before" = "Notify Before";
+"recurring.notify_same_day" = "Same day";
+"recurring.notify_days_before %lld" = "%lld days before";
+"recurring.upcoming" = "Upcoming";
+"recurring.due_today" = "Due Today";
+"recurring.due_soon" = "Due Soon";
+"recurring.monthly_fixed" = "Monthly Fixed Expenses";
+"recurring.total_monthly" = "Total Monthly";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.section.appearance" = "Appearance";
+"settings.section.management" = "Management";
+"settings.section.notifications" = "Notifications";
+"settings.section.data" = "Data";
+"settings.section.about" = "About";
+"settings.theme" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.category_management" = "Category Management";
+"settings.recurring_transactions" = "Recurring Transactions";
+"settings.budget_alert" = "Budget Alert";
+"settings.daily_reminder" = "Daily Reminder";
+"settings.reminder_time" = "Reminder Time";
+"settings.export_data" = "Export Data";
+"settings.delete_all_data" = "Delete All Data";
+"settings.delete_data_title" = "Delete Data";
+"settings.delete_data_message" = "All transaction data will be deleted.\nThis action cannot be undone.";
+"settings.rate_app" = "Rate App";
+"settings.version" = "Version";
+
+// MARK: - Export
+"export.title" = "Export Data";
+"export.description" = "Export your transactions as a CSV file.\nUse it in other apps or spreadsheets.";
+"export.csv" = "Export as CSV";
+
+// MARK: - Notifications
+"notification.daily_reminder.title" = "Record today's expenses";
+"notification.daily_reminder.body" = "Don't forget to record your spending today 📝";
+"notification.budget_exceeded.title" = "Budget Exceeded";
+"notification.budget_exceeded.body %@" = "You've exceeded your %@ budget.";
+"notification.budget_warning.title" = "Budget Warning";
+"notification.budget_warning.body %@" = "You've used 80%% of your %@ budget.";
+"notification.recurring_reminder.title" = "Recurring Transaction Due";
+"notification.recurring_reminder.body %@ %@" = "%@ (%@) is scheduled for tomorrow.";
+
+// MARK: - Widget
+"widget.title" = "Let's Track";
+"widget.description" = "Check your monthly expenses and balance";
+"widget.monthly_expense" = "Monthly Expense";
+"widget.total_balance" = "Total Balance";
+
+// MARK: - Receipt
+"receipt.title" = "Receipt";
+"receipt.add_photo" = "Add Receipt Photo";
+"receipt.choose_source" = "Choose Photo Source";
+"receipt.take_photo" = "Take Photo";
+"receipt.choose_from_library" = "Choose from Library";
+"receipt.view_full" = "View Full Image";
+"receipt.save_for_record" = "Save receipt for your records";
+
+// MARK: - Currency
+"currency.title" = "Currency";
+"currency.default" = "Default Currency";
+"currency.krw" = "Korean Won";
+"currency.usd" = "US Dollar";
+"currency.eur" = "Euro";
+"currency.jpy" = "Japanese Yen";
+"currency.cny" = "Chinese Yuan";
+"currency.gbp" = "British Pound";
+
+// MARK: - Search
+"search.title" = "Search";
+"search.placeholder" = "Search transactions...";
+"search.no_results" = "No results found";
+"search.no_results_description" = "Try a different search term";
+"search.filter" = "Filter";
+"search.filter.all" = "All";
+"search.filter.income" = "Income";
+"search.filter.expense" = "Expense";
+"search.recent" = "Recent Searches";
+"search.clear_recent" = "Clear";
+
+// MARK: - Language
+"settings.language" = "Language";
+"settings.language.system" = "System Default";
+"settings.language.english" = "English";
+"settings.language.korean" = "한국어";
+"settings.section.general" = "General";
+"settings.language.change_title" = "Language Changed";
+"settings.language.change_message" = "Please restart the app for the language change to take full effect.";
+
+// MARK: - Error Messages
+"error.save_failed" = "Failed to save";
+"error.fetch_failed" = "Failed to load data";
+"error.delete_failed" = "Failed to delete";
+"error.not_found" = "Data not found";
+"error.invalid_data %@" = "Invalid data: %@";
+"error.unknown" = "An unknown error occurred";
+"error.retry" = "Retry";
+"error.ok" = "OK";
+"error.amount_must_be_positive" = "Amount must be greater than 0";
+"error.name_required" = "Name is required";
+"error.cannot_delete_default_category" = "Cannot delete default category";
+"error.end_date_before_start" = "End date cannot be before start date";
+"error.database_title" = "Database Warning";
+"error.database_fallback" = "There was a problem loading your data. The app is running in temporary mode. Your data may not be saved.";
+
+// MARK: - Feedback
+"feedback.title" = "Send Feedback";
+"feedback.type" = "Type";
+"feedback.type.bug_report" = "Bug Report";
+"feedback.type.feature_request" = "Feature Request";
+"feedback.type.general_feedback" = "General Feedback";
+"feedback.type.question" = "Question";
+"feedback.message" = "Message";
+"feedback.include_device_info" = "Include Device Info";
+"feedback.include_logs" = "Include Diagnostic Logs";
+"feedback.privacy_note" = "Device info helps us diagnose issues better.";
+"feedback.send" = "Send Feedback";
+"feedback.saved" = "Feedback saved as draft";
+"feedback.error.cannot_send_email" = "Cannot send email. Please configure a mail account.";
+"feedback.error.send_failed" = "Failed to send feedback. Please try again.";
+"common.info" = "Info";
+"common.ok" = "OK";
+"common.error" = "Error";
+
+// MARK: - Savings Goals
+"savings.title" = "Savings Goals";
+"savings.add_goal" = "Add Goal";
+"savings.goal_name" = "Goal Name";
+"savings.target_amount" = "Target Amount";
+"savings.set_deadline" = "Set Deadline";
+"savings.deadline" = "Deadline";
+"savings.appearance" = "Appearance";
+"savings.note_optional" = "Note (Optional)";
+"savings.note_placeholder" = "Add a note...";
+"savings.no_goals" = "No Savings Goals";
+"savings.no_goals_description" = "Set a savings goal to start tracking";
+"savings.days_remaining %lld" = "%lld days left";
+"savings.progress" = "Progress";
+"savings.remaining" = "Remaining";
+"savings.daily_needed" = "Daily";
+"savings.completed" = "Completed";
+"savings.add_savings" = "Add Savings";
+"savings.withdraw" = "Withdraw";
+"savings.amount" = "Amount";
+"savings.days_left" = "Days Left";
+"savings.per_day" = "Per Day";
+"savings.note" = "Note";
+"savings.delete_goal" = "Delete Goal";
+"savings.delete_confirm" = "Are you sure you want to delete this goal?";
+
+// MARK: - Wallets
+"wallet.title" = "Wallets";
+"wallet.add" = "Add Wallet";
+"wallet.name" = "Name";
+"wallet.type" = "Type";
+"wallet.type.cash" = "Cash";
+"wallet.type.bank" = "Bank Account";
+"wallet.type.credit_card" = "Credit Card";
+"wallet.type.debit_card" = "Debit Card";
+"wallet.type.savings" = "Savings";
+"wallet.type.investment" = "Investment";
+"wallet.type.other" = "Other";
+"wallet.initial_balance" = "Initial Balance";
+"wallet.set_as_default" = "Set as Default";
+"wallet.appearance" = "Appearance";
+"wallet.total_balance" = "Total Balance";
+"wallet.default" = "Default";
+"wallet.transactions" = "transactions";
+"wallet.no_wallets" = "No Wallets";
+"wallet.no_wallets_description" = "Add a wallet to manage your accounts";
+"wallet.archived" = "Archived";
+"wallet.adjust_balance" = "Adjust Balance";
+"wallet.balance" = "Balance";
+"wallet.delete" = "Delete Wallet";
+"wallet.delete_confirm" = "Are you sure you want to delete this wallet?";
+
+// MARK: - Calendar
+"calendar.title" = "Calendar";
+"calendar.no_transactions" = "No transactions for this day";
+"calendar.balance" = "Balance";
+"calendar.transactions_count" = "Transactions";
+"calendar.avg_expense" = "Avg Expense";
+"calendar.top_categories" = "Top Categories";
+
+// MARK: - Insights
+"insights.title" = "Insights";
+"insights.period.3m" = "3 Months";
+"insights.period.6m" = "6 Months";
+"insights.period.1y" = "1 Year";
+"insights.spending_trends" = "Spending Trends";
+"insights.budget_predictions" = "Budget Predictions";
+"insights.top_expenses" = "Top Expenses";
+"insights.spending_by_day" = "Spending by Day";
+"insights.category_breakdown" = "Category Breakdown";
+"insights.no_data" = "No data available";
+"insights.increased_by %@" = "Increased by %@ from last month";
+"insights.decreased_by %@" = "Decreased by %@ from last month";
+"insights.current %lld%%" = "Current: %lld%%";
+"insights.predicted %lld%%" = "Predicted: %lld%%";
+"insights.peak_day %@" = "Peak spending day: %@";
+"insights.transactions" = "transactions";
+
+// MARK: - Security
+"settings.section.security" = "Security";
+"settings.app_lock %@" = "App Lock (%@)";
+"settings.lock_on_background" = "Lock When Leaving App";
+"settings.biometric_unavailable" = "Biometric Authentication";
+"settings.not_available" = "Not Available";
+"biometric.none" = "None";
+"biometric.reason" = "Authenticate to access Let's Track";
+"biometric.error.not_available" = "Biometric authentication is not available";
+"biometric.error.not_enrolled" = "Biometric authentication is not set up";
+"biometric.error.authentication_failed" = "Authentication failed";
+"biometric.error.user_cancelled" = "Authentication cancelled";
+"biometric.error.system_cancelled" = "Authentication cancelled by system";
+"biometric.error.title" = "Authentication Failed";
+"biometric.error.retry" = "Try Again";
+"lock.title" = "Let's Track is Locked";
+"lock.description" = "Authenticate to continue";
+"lock.unlock_with %@" = "Unlock with %@";
+"lock.use_passcode" = "Use Passcode";
+"lock.authenticating" = "Authenticating...";
+
+// MARK: - Backup
+"settings.backup" = "Backup Data";
+"settings.restore" = "Restore Data";
+"settings.restore_result" = "Restore Result";
+"settings.restore_success %lld" = "Successfully restored %lld items";
+"settings.restore_error" = "Failed to restore data";
+"backup.title" = "Backup Data";
+"backup.description" = "Create a backup of all your data.\nYou can restore it later on any device.";
+"backup.last_backup %@" = "Last backup: %@";
+"backup.create" = "Create Backup";
+"backup.share" = "Share Backup";
+
+// MARK: - Tags
+"tags.title" = "Tags";
+"tags.add" = "Add Tag";
+"tags.edit" = "Edit Tag";
+"tags.name" = "Tag Name";
+"tags.color" = "Color";
+"tags.preview" = "Preview";
+"tags.sample" = "Sample";
+"tags.no_tags" = "No Tags";
+"tags.no_tags_description" = "Create tags to organize your transactions";
+"tags.usage_count" = "Usage Count";
+"tags.delete" = "Delete Tag";
+"tags.delete_confirm" = "Are you sure you want to delete this tag?";
+
+// MARK: - More Tabs
+"tab.calendar" = "Calendar";
+"tab.insights" = "Insights";
+"tab.wallets" = "Wallets";
+"tab.savings" = "Savings";
+"tab.more" = "More";
+
+// MARK: - Filter Short Labels
+"filter.all.short" = "All";
+"filter.income.short" = "In";
+"filter.expense.short" = "Out";
+
+// MARK: - Accessibility
+"accessibility.selected" = "Selected";
+"accessibility.tap_to_select" = "Tap to select";
+"accessibility.income_amount %@" = "Income: %@";
+"accessibility.expense_amount %@" = "Expense: %@";
+
+// MARK: - Voice Transaction
+"voice.title" = "Voice Entry";
+"voice.listening" = "Listening...";
+"voice.tap_to_start" = "Tap to start speaking";
+"voice.recognized" = "Recognized:";
+"voice.parsed_result" = "Parsed Result";
+"voice.start" = "Start Recording";
+"voice.stop" = "Stop Recording";
+"voice.permission_required" = "Permission Required";
+"voice.permission_message" = "Please allow microphone and speech recognition access in Settings to use voice entry.";
+"voice.error.not_available" = "Speech recognition is not available";
+"voice.error.not_authorized" = "Speech recognition is not authorized";
+"voice.error.request_failed" = "Failed to create speech recognition request";
+"voice.error.recognition_failed" = "Speech recognition failed";
+
+// MARK: - Insights (Additional)
+"insights.recurring_patterns" = "Recurring Expenses";
+"insights.no_recurring_patterns" = "No recurring patterns detected yet.\nAdd more transactions to see patterns.";
+"insights.occurrences" = "times";
+"insights.next_expected %@" = "Next expected: %@";
+"insights.frequency.monthly" = "Monthly";
+"insights.frequency.weekly" = "Weekly";
+"insights.frequency.biweekly" = "Biweekly";
+"insights.category_trends" = "Category Trends";
+"insights.this_month" = "This month:";
+"insights.last_month" = "Last:";
+"insights.avg" = "Avg:";
+"insights.transactions_this_month" = "transactions this month";
+
+// MARK: - Weekly Report
+"settings.weekly_report" = "Weekly Spending Report";
+"notification.weekly_report.title" = "Weekly Spending Summary";
+"notification.weekly_report.body" = "Check your spending from last week!";
+"notification.weekly_report.spent %@" = "Last week you spent %@.";
+"notification.weekly_report.top_category %@" = "Most spent on: %@.";
+"notification.weekly_report.increased %lld%%" = "Up %lld%% from previous week.";
+"notification.weekly_report.decreased %lld%%" = "Down %lld%% from previous week.";
+
+// MARK: - Smart Category
+"smart_category.suggestion" = "Suggested:";
+
+// MARK: - Location
+"location.title" = "Location";
+"location.detect" = "Current Location";
+"location.search" = "Search";
+"location.select" = "Select Location";
+"location.current" = "Current Location";
+"location.use_current_location" = "Use my current location";
+"location.search_placeholder" = "Search for a place...";
+"location.select_this" = "Select This Location";
+"location.unknown" = "Unknown Location";
+"location.error.permission_denied" = "Location permission is required. Please enable it in Settings.";
+"location.error.permission_restricted" = "Location access is restricted.";
+"location.error.unavailable" = "Unable to get current location.";
+"location.error.geocoding_failed" = "Failed to find address for this location.";
+"location.error.title" = "Location Error";
+"location.permission_required" = "Permission required";
+
+// MARK: - Map
+"map.title" = "Map";
+"map.empty.title" = "No Locations Yet";
+"map.empty.description" = "Add location info to your transactions to see them on the map.";
+"map.loading" = "Loading map...";
+
+// MARK: - More Page
+"more.finance" = "Finance";
+"more.organize" = "Organize";
+"more.data" = "Data";
+"more.support" = "Support";
+
+// MARK: - Insights Location
+"insights.spending_locations" = "Spending Locations";
+"insights.view_on_map" = "View on Map";
+
+// MARK: - Add Transaction
+"add.title" = "Add Transaction";
+"add.manual_description" = "Enter transaction details manually";
+"add.voice_description" = "Use voice to add transaction";
+"fab.voice" = "Voice";
+"fab.manual" = "Manual";
