@@ -103,10 +103,18 @@
 		F938A9CA3EA917A566864E7E /* RecurringProjectionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB33831D82C19D0DABBB2DF /* RecurringProjectionServiceTests.swift */; };
 		F940DB942A56C313706708B7 /* RecurringTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADE6717433D4BD4211C69F /* RecurringTransaction.swift */; };
 		FAE153803291018D27874AD1 /* AnalyticsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5B999B8E4A4F68A09E8E9 /* AnalyticsServiceTests.swift */; };
+		FC47606E4110064A1EDD38FF /* ScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9952D485796BB416A177B /* ScreenshotTests.swift */; };
 		FF4673F77FC1057CAAB68F61 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8AE731B05E5A32FA935CF5 /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7AB8BC46E4DE0C7C2784492A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD93F0BBF07762A516791C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB091C886500C91FAA96AB60;
+			remoteInfo = LetsTrack;
+		};
 		BFA161F433F9160C7A25DC7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCD93F0BBF07762A516791C2 /* Project object */;
@@ -175,6 +183,7 @@
 		7E6492FE0BD11B186798A7CF /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		833AEB1CE7546570C7F9EE8A /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		84549DD4BAA308C2151B0C6D /* WalletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsView.swift; sourceTree = "<group>"; };
+		86F9952D485796BB416A177B /* ScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTests.swift; sourceTree = "<group>"; };
 		878B3E44E599CA4C42765E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB33831D82C19D0DABBB2DF /* RecurringProjectionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringProjectionServiceTests.swift; sourceTree = "<group>"; };
 		8DDC47457E7ABB52A83A9F1A /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
@@ -191,6 +200,7 @@
 		A77E3801DE74A965994468AA /* TransactionMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionMapView.swift; sourceTree = "<group>"; };
 		A89AB3AB66713DA5FC790617 /* LetsTrackWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetsTrackWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91CEE49E174159CF38CC862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AB717C4CD649552ABA742885 /* LetsTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADADE6717433D4BD4211C69F /* RecurringTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringTransaction.swift; sourceTree = "<group>"; };
 		AE46F8E24B048188B3D3B6C3 /* LetsTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTrackApp.swift; sourceTree = "<group>"; };
 		AE8502719CCECFC6EBE78ABE /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
@@ -237,6 +247,7 @@
 				A218710BA31162115D8FBF54 /* Presentation */,
 				E6B895E33256815860DC9C5F /* Resources */,
 				B86C4CBAA882D304DF911F8A /* Tests */,
+				CDFDFE300768D518838350B1 /* UITests */,
 				FD2C1C36C19C708A740FEDEC /* Widget */,
 				CC913F06C07A087FFBBA3942 /* Products */,
 			);
@@ -653,9 +664,18 @@
 			children = (
 				55145FD85C1347309BC052C6 /* LetsTrack.app */,
 				9AF641902130015CEBAE9703 /* LetsTrackTests.xctest */,
+				AB717C4CD649552ABA742885 /* LetsTrackUITests.xctest */,
 				A89AB3AB66713DA5FC790617 /* LetsTrackWidget.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFDFE300768D518838350B1 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				86F9952D485796BB416A177B /* ScreenshotTests.swift */,
+			);
+			path = UITests;
 			sourceTree = "<group>";
 		};
 		CFF3942F1420CB5F1F4B1B5D /* Views */ = {
@@ -813,6 +833,24 @@
 			productReference = 9AF641902130015CEBAE9703 /* LetsTrackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A55B108FA6943F59B1ABDFD3 /* LetsTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC150F7358708A094CD202C /* Build configuration list for PBXNativeTarget "LetsTrackUITests" */;
+			buildPhases = (
+				EE9998AD4FF94693C5BF6976 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A337D54CF9695165F9DA5F /* PBXTargetDependency */,
+			);
+			name = LetsTrackUITests;
+			packageProductDependencies = (
+			);
+			productName = LetsTrackUITests;
+			productReference = AB717C4CD649552ABA742885 /* LetsTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		FB091C886500C91FAA96AB60 /* LetsTrack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4439BC8AADF92D0A8AE726FD /* Build configuration list for PBXNativeTarget "LetsTrack" */;
@@ -846,7 +884,13 @@
 						ProvisioningStyle = Automatic;
 					};
 					6C7EBE3004B0A30AEA63875B = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
+					};
+					A55B108FA6943F59B1ABDFD3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB091C886500C91FAA96AB60;
 					};
 					FB091C886500C91FAA96AB60 = {
 						ProvisioningStyle = Automatic;
@@ -869,6 +913,7 @@
 			targets = (
 				FB091C886500C91FAA96AB60 /* LetsTrack */,
 				6C7EBE3004B0A30AEA63875B /* LetsTrackTests */,
+				A55B108FA6943F59B1ABDFD3 /* LetsTrackUITests */,
 				53D892675AED28C61B3C36CD /* LetsTrackWidget */,
 			);
 		};
@@ -1009,6 +1054,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE9998AD4FF94693C5BF6976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47606E4110064A1EDD38FF /* ScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1016,6 +1069,11 @@
 			isa = PBXTargetDependency;
 			target = 53D892675AED28C61B3C36CD /* LetsTrackWidget */;
 			targetProxy = C93F0C129A5826F621024A87 /* PBXContainerItemProxy */;
+		};
+		D9A337D54CF9695165F9DA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB091C886500C91FAA96AB60 /* LetsTrack */;
+			targetProxy = 7AB8BC46E4DE0C7C2784492A /* PBXContainerItemProxy */;
 		};
 		E0EC7BF122AD351EDD2D86A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1077,7 +1135,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = T3J4PP3WL4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1110,19 +1168,37 @@
 			};
 			name = Release;
 		};
+		6335A4470F6F9AF515F9AF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsTrack;
+			};
+			name = Release;
+		};
 		72D2AA60DD14316186151078 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				DEVELOPMENT_TEAM = T3J4PP3WL4;
 				INFOPLIST_FILE = Widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongminLee.Extr1228.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1151,6 +1227,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T3J4PP3WL4;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to take photos of receipts";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to protect your financial data";
@@ -1162,11 +1239,28 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongminLee.Extr1228;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		E11530D6CDEE27D3782D1D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsTrack;
+			};
+			name = Debug;
 		};
 		E3D42B84F6C982589B7EA2BC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1208,7 +1302,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = T3J4PP3WL4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1253,6 +1347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T3J4PP3WL4;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to take photos of receipts";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to protect your financial data";
@@ -1264,7 +1359,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongminLee.Extr1228;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1276,13 +1371,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				DEVELOPMENT_TEAM = T3J4PP3WL4;
 				INFOPLIST_FILE = Widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tltmzmaos.letstrack.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JongminLee.Extr1228.widget;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1341,6 +1437,15 @@
 			buildConfigurations = (
 				FF1BF282EF9F0D1E68C0E9A0 /* Debug */,
 				7CD4A800F990A296162AC148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDC150F7358708A094CD202C /* Build configuration list for PBXNativeTarget "LetsTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11530D6CDEE27D3782D1D6A /* Debug */,
+				6335A4470F6F9AF515F9AF1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
